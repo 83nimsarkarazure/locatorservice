@@ -1,0 +1,20 @@
+bolt: 7687 → 7688
+http: 7474 → 7475
+bolt: 7688 → 7689
+
+
+const driver = neo4j.driver(
+    'bolt://localhost:7688',
+    neo4j.auth.basic('neo4j', 'Rena123$')
+);
+
+
+pass for neodb cloud : 4hqt6lnErThl2NS25uUSsW_HuU1SZwd1aP0eaON-Sas
+
+
+# Wait 60 seconds before connecting using these details, or login to https://console.neo4j.io to validate the Aura Instance is available
+NEO4J_URI=neo4j+s://9049ff5d.databases.neo4j.io
+NEO4J_USERNAME=neo4j
+NEO4J_PASSWORD=4hqt6lnErThl2NS25uUSsW_HuU1SZwd1aP0eaON-Sas
+AURA_INSTANCEID=9049ff5d
+AURA_INSTANCENAME=Instance01
